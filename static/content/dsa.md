@@ -201,3 +201,208 @@ https://www.youtube.com/watch?v=VYtEKhxKd1Q&ab_channel=TerribleWhiteboard
 
 ### Heap Sort
 - https://www.geeksforgeeks.org/heap-sort/
+
+## Recursion
+
+### Introduction to recursion
+- https://www.youtube.com/watch?v=M2uO2nMT0Bk&ab_channel=KunalKushwaha
+
+### Recursion Detailed Playlist
+-https://www.youtube.com/watch?v=_-2u4EPHD88&list=PLDzeHZWIZsTqBmRGnsCOGNDG5FY0G04Td&ab_channel=CodeHelp-byBabbar
+
+### More on recursion
+- https://www.youtube.com/watch?v=B3U6LExgevE&ab_channel=BytebyByte
+
+## Dynamic Programming
+
+### Introduction to dynamic programming
+- https://www.youtube.com/watch?v=PGsgv6nXhLw&list=RDLVsPeKpctCL-c&index=3&ab_channel=CodeHelp-byBabbar
+
+### Learn Dynamic Programming
+- https://www.geeksforgeeks.org/introduction-to-dynamic-programming-data-structures-and-algorithm-tutorials/
+
+### Overlapping Subproblem
+- https://www.geeksforgeeks.org/overlapping-subproblems-property-in-dynamic-programming-dp-1/
+- https://www.youtube.com/watch?v=mmjDZGSr7EA&ab_channel=GeeksforGeeks
+
+### Optimal Substructure
+- https://www.geeksforgeeks.org/optimal-substructure-property-in-dynamic-programming-dp-2/
+- https://www.youtube.com/watch?v=JWTqsNvtwP4&ab_channel=GeeksforGeeks
+
+### Question Solving in Dynamic Programming
+- https://www.youtube.com/watch?v=nqowUJzG-iM&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&ab_channel=AdityaVerma
+
+### Practice 1 : DP
+- https://leetcode.com/problems/climbing-stairs/
+- https://leetcode.com/problems/unique-paths/
+- https://leetcode.com/problems/count-sorted-vowel-strings/
+- https://leetcode.com/problems/house-robber/
+
+### COIN DP
+- https://www.geeksforgeeks.org/coin-change-dp-7/
+- https://www.youtube.com/watch?v=DJ4a7cmjZY0&ab_channel=BackToBackSWE
+- https://leetcode.com/problems/coin-change-ii/
+
+### DICE ROLL DP
+- https://www.geeksforgeeks.org/dice-throw-dp-30/
+- https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/
+
+### CUTTING DP
+- https://iq.opengenus.org/maximum-product-cutting/
+- https://www.youtube.com/watch?v=qIwrg0-Be0M&ab_channel=codeExplainer
+- https://leetcode.com/problems/integer-break/
+
+### WORD BREAK DP
+- https://www.geeksforgeeks.org/word-break-problem-dp-32/
+- https://www.youtube.com/watch?v=1U4jQusbeJc&ab_channel=Knapsack
+- https://leetcode.com/problems/word-break/
+
+### LIS and related DP
+- https://www.geeksforgeeks.org/longest-increasing-subsequence-dp-3/
+- https://www.youtube.com/watch?v=CE2b_-XfVDk&ab_channel=TusharRoy-CodingMadeSimple
+- https://leetcode.com/problems/longest-increasing-subsequence/
+- https://leetcode.com/problems/largest-divisible-subset/
+- https://leetcode.com/problems/longest-string-chain/
+
+### BOX DP
+- https://www.geeksforgeeks.org/box-stacking-problem-dp-22/
+- https://www.youtube.com/watch?v=9mod_xRB-O0&ab_channel=TusharRoy-CodingMadeSimple
+- https://practice.geeksforgeeks.org/problems/box-stacking/1
+
+### LCS DP
+- https://www.geeksforgeeks.org/longest-common-subsequence-dp-4/
+- https://www.youtube.com/watch?v=sSno9rV8Rhg&ab_channel=AbdulBari
+- https://leetcode.com/problems/longest-common-subsequence/
+
+### Edit Distance and related DP
+- https://www.geeksforgeeks.org/edit-distance-dp-5/
+- https://www.youtube.com/watch?v=XJ6e4BQYJ24&ab_channel=GauravSen
+- https://leetcode.com/problems/edit-distance/
+- https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/
+
+### Knapsack DP
+- https://www.educative.io/courses/grokking-dynamic-programming-a-deep-dive-using-cpp/x1gVBwOBz4n
+- https://www.educative.io/courses/grokking-dynamic-programming-a-deep-dive-using-cpp/xlRrr451r5P
+- https://www.geeksforgeeks.org/0-1-knapsack-problem-dp-10/
+- https://www.youtube.com/watch?v=xOlhR_2QCXY&ab_channel=CSDojo
+- https://practice.geeksforgeeks.org/problems/0-1-knapsack-problem0945/1
+
+### Partition DP
+- https://www.youtube.com/watch?v=s6FhG--P7z0&ab_channel=TusharRoy-CodingMadeSimple
+- https://leetcode.com/problems/partition-equal-subset-sum/
+- https://practice.geeksforgeeks.org/problems/minimum-sum-partition3317/1
+- https://practice.geeksforgeeks.org/problems/subset-sum-problem2014/1
+
+### Optimal Strategy For Game DP
+- https://www.geeksforgeeks.org/optimal-strategy-for-a-game-dp-31/
+- https://www.youtube.com/watch?v=WxpIHvsu1RI&ab_channel=TusharRoy-CodingMadeSimple
+- https://leetcode.com/problems/stone-game/
+
+### Egg Dropping DP
+- https://www.geeksforgeeks.org/egg-dropping-puzzle-dp-11/
+- https://www.youtube.com/watch?v=KVfxgpI3Tv0&ab_channel=GeeksforGeeks
+- https://leetcode.com/problems/super-egg-drop/
+
+### Minimum Cost to cut a stick
+- https://leetcode.com/problems/minimum-cost-to-cut-a-stick/
+
+### Boolean Parenthesis DP
+- https://www.youtube.com/watch?v=oyj9tRZhmis&ab_channel=MaxLevy
+- https://www.interviewbit.com/problems/evaluate-expression-to-true/
+
+### Matrix Chain DP
+- http://www.columbia.edu/~cs2035/courses/csor4231.F11/matrix-chain.pdf
+- https://www.youtube.com/watch?v=vgLJZMUfnsU&ab_channel=TusharRoy-CodingMadeSimple
+- https://practice.geeksforgeeks.org/problems/matrix-chain-multiplication0303/1
+
+### Practice 2: DP
+- https://leetcode.com/problems/wiggle-subsequence/
+- https://leetcode.com/problems/minimum-falling-path-sum-ii/
+- https://leetcode.com/problems/palindrome-partitioning-iii/
+- https://leetcode.com/problems/shortest-common-supersequence/
+
+## Pointers
+
+### Basics
+- https://www.youtube.com/watch?v=h-HBipu_1P0&ab_channel=mycodeschool
+- https://www.programiz.com/cpp-programming/pointers
+
+### Practice 1: Pointers
+- https://www.geeksforgeeks.org/output-c-programs-set-47-pointers/
+
+## Linked List
+
+### Basics of linked list
+https://www.youtube.com/watch?v=R9PTBwOzceo&ab_channel=NesoAcademy
+
+### Reading About Linked Lists
+- https://www.geeksforgeeks.org/introduction-to-linked-list-data-structure-and-algorithm-tutorial/
+- https://www.geeksforgeeks.org/what-is-linked-list/
+- https://www.geeksforgeeks.org/applications-advantages-and-disadvantages-of-linked-list/ https://www.geeksforgeeks.org/applications-advantages-and-disadvantages-of-linked-list/
+- https://geeksforgeeks.org/linked-list-vs-array/
+- https://www.youtube.com/watch?v=48uzKhtyEvI&ab_channel=Telusko
+- https://stackoverflow.com/questions/393556/when-to-use-a-linked-list-over-an-array-array-list
+- https://www.reddit.com/r/learnprogramming/comments/15mxrt/what_are_the_real_world_applications_of_linked/
+
+### Details of Linked Lists
+- https://www.youtube.com/watch?v=4tU7d0TTiZQ&ab_channel=AnujBhaiya
+- https://www.programiz.com/dsa/linked-list-operations
+- https://www.programiz.com/dsa/linked-list-types
+
+### Linked List Implementations
+#### Print Linked List
+- https://www.hackerrank.com/challenges/print-the-elements-of-a-linked-list/problem
+#### Insert Linked List
+- https://www.hackerrank.com/challenges/insert-a-node-at-the-tail-of-a-linked-list/problem
+- https://www.hackerrank.com/challenges/insert-a-node-at-a-specific-position-in-a-linked-list/problem
+#### Compare Linked List
+- https://practice.geeksforgeeks.org/problems/count-nodes-of-linked-list/1
+- https://www.hackerrank.com/challenges/compare-two-linked-lists/problem
+#### Deleting Linked List
+- https://www.geeksforgeeks.org/deletion-in-linked-list/
+- https://www.hackerrank.com/challenges/delete-a-node-from-a-linked-list/problem
+#### Loop in a linked list
+- https://www.geeksforgeeks.org/detect-loop-in-a-linked-list/
+- https://leetcode.com/problems/linked-list-cycle/
+#### The intersection of 2 linked lists
+- https://leetcode.com/problems/intersection-of-two-linked-lists/
+#### Merge 2 sorted linked list
+- https://www.geeksforgeeks.org/merge-two-sorted-linked-lists/
+#### Merge 2 unsorted LL
+- https://www.geeksforgeeks.org/merge-two-unsorted-linked-lists-to-get-a-sorted-list/
+
+### Practice 1: Linked List
+- https://www.hackerrank.com/challenges/delete-duplicate-value-nodes-from-a-sorted-linked-list/problem
+- https://leetcode.com/problems/remove-nth-node-from-end-of-list/
+- https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/
+- https://practice.geeksforgeeks.org/problems/add-1-to-a-number-represented-as-linked-list/1
+- https://leetcode.com/problems/reorder-list/
+- https://leetcode.com/problems/reverse-nodes-in-k-group/
+- https://leetcode.com/problems/merge-k-sorted-lists/
+
+### Reverse Link List
+- https://www.geeksforgeeks.org/reverse-a-linked-list/
+- https://leetcode.com/problems/reverse-linked-list/
+
+### Doubly Linked List
+- https://www.programiz.com/dsa/doubly-linked-list
+
+### Rotate  Linked List
+- https://leetcode.com/problems/rotate-list/
+- https://leetcode.com/problems/reverse-linked-list-ii/
+
+### Circular Linked List
+- https://www.youtube.com/watch?v=1t8NAjIXvVA&ab_channel=ApnaCollege
+- https://www.geeksforgeeks.org/circular-linked-list/
+- https://www.geeksforgeeks.org/delete-every-kth-node-from-circular-linked-list/
+- https://www.geeksforgeeks.org/circular-singly-linked-list-insertion/
+
+### Practice 2: Linked List Quiz
+- https://www.geeksforgeeks.org/data-structure-gq/top-mcqs-on-linked-list-data-structure-with-answers/
+- https://quizizz.com/admin/quiz/5f336be71f3fd4001bf66c69/linked-lists
+
+### Practice 3: Linked List Extra Questions
+- https://www.geeksforgeeks.org/exchange-first-last-node-circular-linked-list/
+- https://www.geeksforgeeks.org/reverse-a-doubly-linked-list/
+- https://www.geeksforgeeks.org/remove-duplicates-from-a-sorted-linked-list/
+- https://www.geeksforgeeks.org/intersection-of-two-sorted-linked-lists/
