@@ -108,7 +108,7 @@
     }
     .lhs,
     .rhs {
-        width: max(300px, 50%);
+        width: 50%;
         overflow: hidden;
         height: auto;
     }
@@ -116,6 +116,10 @@
         min-height: 50vh;
     }
     @media (max-width: 768px) {
+        .lhs,
+        .rhs {
+            width: 100%;
+        }
         .hero {
             min-height: 90vh;
         }
