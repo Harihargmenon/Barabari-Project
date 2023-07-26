@@ -80,11 +80,6 @@
         animation: 0.4s slideIn 1s ease-in-out forwards;
         transform: translateY(-50px);
     }
-    @media (min-width: 768px) {
-        nav {
-            padding: 0 20px;
-        }
-    }
     .nav {
         height: 0;
         width: 100%;

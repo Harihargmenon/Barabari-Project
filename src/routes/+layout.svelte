@@ -29,7 +29,7 @@
     ]);
 </script>
 
-<main class="app p-rel">
+<main class="app p-rel flow-x-h">
     <Nav />
     <style>
         section {
@@ -74,10 +74,7 @@
         <slot />
     </div>
 
-    <footer
-        class="p10 w-100 tc p5"
-        style="background: var(--yellow);font-size:0.8em"
-    >
+    <footer class="p10 w-100 tc">
         <div class="mx-a" style="max-width: 300px;">
             <div class="fw4" style="font-size:2rem;">The Barabari Project</div>
             <div class="p10" style="font-size:1.1em">
@@ -101,6 +98,11 @@
 </main>
 
 <style>
+    footer {
+        width: calc(100% - 20px);
+        background: var(--yellow);
+        font-size: 0.8em;
+    }
     #content {
         scroll-behavior: smooth;
     }

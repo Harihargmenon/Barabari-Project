@@ -95,6 +95,16 @@
         </div>
     </div>
 </article>
+<div class="p20 bg-eee">
+    <div class="f mx-a j-ar fwx" style="max-width: 1000px;">
+        {#each stats as stat}
+            <div class="f-col tc stat m10">
+                <div class="ctr fw5">{stat.count}</div>
+                <div class="name fw4">{stat.name}</div>
+            </div>
+        {/each}
+    </div>
+</div>
 
 <!-- <Social /> -->
 <style lang="scss">

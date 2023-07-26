@@ -9,7 +9,7 @@
             <slot name="desc" />
         </p>
     </div>
-    <h1 class="w-100 m0 p20" style="background:var(--yellow)">{title}</h1>
+    <h1 class="m0 p20">{title}</h1>
     <div class="limit mx-a">
         <slot name="body" />
     </div>
@@ -19,6 +19,10 @@
 </div>
 
 <style>
+    h1 {
+        width: calc(100% - 40px);
+        background: var(--yellow);
+    }
     .limit {
         max-width: 1000px;
         overflow: hidden;

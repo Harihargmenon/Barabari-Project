@@ -6,7 +6,7 @@
     <img
         src={Background}
         alt=""
-        class="p-abs"
+        class="p-abs flow-x-h"
         style="height: 100vh;width:100vw;object-fit:cover;"
     />
     <div id="bio" class="w-100 tc p-abs fade-down">
@@ -57,7 +57,7 @@
     #bio {
         top: 20%;
         left: 10%;
-        width: 100vw;
+        width: max(90%, 600px);
         --delay: 6s;
         font-size: 2rem;
         color: #fff;

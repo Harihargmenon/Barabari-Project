@@ -29,22 +29,19 @@
 
 <!-- svelte-ignore a11y-click-events-have-key-events -->
 <div
-    class="p20 tc f-col p-rel person z-0"
+    class="p20 tc f-col p-rel person ptr flow-x-h flow-y-s z-0"
     class:active={current}
     bind:this={hold}
     on:click={flip}
     style={`--col:var(--${color}-rgb);--bg:${getBg()};`}
 >
     <img class="mx-a" src={person.img} alt={person.name} />
-    <div class="mx-a body">
+    <div class="mx-a body flow-y-h">
         <div class="fw7 p10 name">{person.name}</div>
         <div class="fw4 desc">{person.desc}</div>
         <p class:tc={current} class="fw4 caps">{person.caps}</p>
         {#if current && !minimal}
-            <p
-                class="fade-up tj w-100"
-                style="line-height: 2em;overflow-y:scroll;"
-            >
+            <p class="fade-up tj w-100 flow-y-s" style="line-height: 2em;">
                 {@html marked.parse(person?.md || "")}
             </p>
         {/if}
@@ -74,9 +71,6 @@
         aspect-ratio: 1 !important;
         --sz: 33%;
         width: var(--sz);
-        overflow: hidden;
-        cursor: pointer;
-        overflow-y: scroll;
         background: var(--bg);
         will-change: transform;
         transition: transform 0.2s ease;
@@ -89,7 +83,6 @@
         }
         .body {
             max-width: 991px;
-            overflow-y: hidden;
         }
         img {
             background: rgba(var(--col), 0.66);

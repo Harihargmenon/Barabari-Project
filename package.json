@@ -7,7 +7,9 @@
 	},
 	"license": "MIT",
 	"scripts": {
+		"predev": "rm -rf build .svelte*",
 		"dev": "vite dev",
+		"prebuild": "rm -rf build .svelte*",
 		"build": "vite build",
 		"deploy:force": "npx gh-pages -d build -t true && rm -rf build .svelte*",
 		"deploy": "echo 'CI is Setup! use deploy:force to force deploy'",

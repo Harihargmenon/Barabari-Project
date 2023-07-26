@@ -140,3 +140,13 @@
         transform: translateX(0%);
     }
 }
+
+.desktop-only {
+    display: block;
+}
+
+@media (max-width: 600px) {
+    .desktop-only {
+        display: none;
+    }
+}
