@@ -115,7 +115,6 @@
 - https://leetcode.com/problems/spiral-matrix/
 
 ## Strings and Character Arrays
-
 ### Character Arrays
 - https://www.youtube.com/watch?v=TkTgo_7ab0M&list=PLfqMhTWNBTe0b2nM6JHVCnAkhQRGiZMSJ&index=29&ab_channel=ApnaCollege
 
@@ -137,7 +136,6 @@
 - https://practice.geeksforgeeks.org/problems/multiply-two-strings/1
 
 ## Searching & Sorting
-
 ### Linear Search
 https://www.youtube.com/watch?v=13ocRMSJy5M&t=12s&ab_channel=ApnaCollege
 
@@ -203,7 +201,6 @@ https://www.youtube.com/watch?v=VYtEKhxKd1Q&ab_channel=TerribleWhiteboard
 - https://www.geeksforgeeks.org/heap-sort/
 
 ## Recursion
-
 ### Introduction to recursion
 - https://www.youtube.com/watch?v=M2uO2nMT0Bk&ab_channel=KunalKushwaha
 
@@ -214,7 +211,6 @@ https://www.youtube.com/watch?v=VYtEKhxKd1Q&ab_channel=TerribleWhiteboard
 - https://www.youtube.com/watch?v=B3U6LExgevE&ab_channel=BytebyByte
 
 ## Dynamic Programming
-
 ### Introduction to dynamic programming
 - https://www.youtube.com/watch?v=PGsgv6nXhLw&list=RDLVsPeKpctCL-c&index=3&ab_channel=CodeHelp-byBabbar
 
@@ -322,7 +318,6 @@ https://www.youtube.com/watch?v=VYtEKhxKd1Q&ab_channel=TerribleWhiteboard
 - https://leetcode.com/problems/shortest-common-supersequence/
 
 ## Pointers
-
 ### Basics
 - https://www.youtube.com/watch?v=h-HBipu_1P0&ab_channel=mycodeschool
 - https://www.programiz.com/cpp-programming/pointers
@@ -331,7 +326,6 @@ https://www.youtube.com/watch?v=VYtEKhxKd1Q&ab_channel=TerribleWhiteboard
 - https://www.geeksforgeeks.org/output-c-programs-set-47-pointers/
 
 ## Linked List
-
 ### Basics of linked list
 https://www.youtube.com/watch?v=R9PTBwOzceo&ab_channel=NesoAcademy
 
@@ -408,7 +402,6 @@ https://www.youtube.com/watch?v=R9PTBwOzceo&ab_channel=NesoAcademy
 - https://www.geeksforgeeks.org/intersection-of-two-sorted-linked-lists/
   
 ## Stacks
-
 ### Introduction to Stack
 - https://www.youtube.com/watch?v=F1F2imiOJfk&ab_channel=mycodeschool
 - https://www.geeksforgeeks.org/stack-class-in-java/
@@ -449,7 +442,6 @@ https://www.youtube.com/watch?v=R9PTBwOzceo&ab_channel=NesoAcademy
 - https://leetcode.com/problems/maximal-rectangle/
 
 ## Queues
-
 ### Introduction to Queues
 - https://www.coursera.org/lecture/data-structures/queues-EShpq
 
@@ -474,7 +466,6 @@ https://www.youtube.com/watch?v=R9PTBwOzceo&ab_channel=NesoAcademy
 - https://leetcode.com/problems/jump-game-vi/
 
 ## Trees
-
 ### Introduction
 - https://www.youtube.com/watch?v=qH6yxkw0u78&ab_channel=mycodeschool
 
@@ -595,3 +586,87 @@ https://www.geeksforgeeks.org/binary-tree-array-implementation/#:~:text=Given%20
 ### Practice 4: Heap Extra
 - https://leetcode.com/problems/kth-largest-element-in-an-array/
 - https://www.interviewbit.com/problems/meeting-rooms/
+
+## Greedy
+### Introduction
+- https://emre.me/algorithms/greedy-algorithms/
+- https://www.youtube.com/watch?v=HZOUwKCKF5o&ab_channel=CodeHelp-byBabbar
+- https://www.youtube.com/watch?v=ARvQcqJ_-NY&ab_channel=AbdulBari
+
+### Types Of Greedy Problems
+- https://www.youtube.com/watch?v=oTTzNMHM05I&ab_channel=AbdulBari
+- https://www.youtube.com/watch?v=zPtI8q9gvX8&ab_channel=AbdulBari
+
+### Practice 1:  Greedy
+- https://leetcode.com/problems/jump-game/
+- https://leetcode.com/problems/boats-to-save-people/
+- https://leetcode.com/problems/car-pooling/
+- https://leetcode.com/problems/non-overlapping-intervals/
+- https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/
+- https://leetcode.com/problems/candy/
+
+## Graph
+### Introduction Graph Data Structure
+- https://www.youtube.com/watch?v=gXgEDyodOJU&ab_channel=mycodeschool
+
+### Types Of Graphs (see till 9:04)
+- https://www.youtube.com/watch?v=eQA-m22wjTQ&t=143s&ab_channel=WilliamFiset
+
+### Representing Graphs (9:04 Onwards)
+- https://www.youtube.com/watch?v=eQA-m22wjTQ&t=543s&ab_channel=WilliamFiset
+- https://www.geeksforgeeks.org/graph-and-its-representations/
+#### Using Edge list
+- https://www.youtube.com/watch?v=ZdY1Fp9dKzs&ab_channel=mycodeschool
+#### Adjacency Matrix
+- https://www.youtube.com/watch?v=9C2cpQZVRBA&ab_channel=mycodeschool
+#### Adjacency List
+- https://www.youtube.com/watch?v=k1wraWzqtvQ&ab_channel=mycodeschool
+#### Practice 1: Representation
+- https://leetcode.com/problems/find-the-town-judge/
+
+### Graph Traversal 
+#### BFS & DFS
+- https://www.youtube.com/watch?v=pcKY4hjDrxk&ab_channel=AbdulBari
+#### Implementation DFS
+- https://www.programiz.com/dsa/graph-dfs
+- https://practice.geeksforgeeks.org/problems/depth-first-traversal-for-a-graph/1
+#### Implementation BFS
+- https://www.programiz.com/dsa/graph-bfs
+- https://practice.geeksforgeeks.org/problems/bfs-traversal-of-graph/1
+
+### Cycle Detection 
+#### Undirected Graph
+- https://www.youtube.com/watch?v=n_t0a_8H8VY&t=321s&ab_channel=TusharRoy-CodingMadeSimple
+- https://www.geeksforgeeks.org/detect-cycle-undirected-graph/
+#### Directed Graph
+- https://www.youtube.com/watch?v=rKQaZuoUR4M&t=14s&ab_channel=TusharRoy-CodingMadeSimple
+- https://www.geeksforgeeks.org/detect-cycle-direct-graph-using-colors/
+- https://leetcode.com/problems/course-schedule/
+
+### Bipartite Graph
+- https://www.geeksforgeeks.org/bipartite-graph/
+- https://www.youtube.com/watch?v=mVmXwFkgoJ0&ab_channel=GeeksforGeeks
+- https://leetcode.com/problems/is-graph-bipartite/
+
+### Connected Components in Graph
+- https://www.baeldung.com/cs/graph-connected-components
+- https://www.youtube.com/watch?v=I6v0itcISSY&t=89s&ab_channel=takeUforward
+- https://leetcode.com/problems/number-of-provinces/
+
+### Practice 2: Graphs
+- https://leetcode.com/problems/number-of-operations-to-make-network-connected/
+
+### Topological Sort
+- https://www.hackerearth.com/practice/algorithms/graphs/topological-sort/tutorial/
+- https://www.youtube.com/watch?v=ddTC4Zovtbc&ab_channel=TusharRoy-CodingMadeSimple
+- https://leetcode.com/problems/course-schedule-ii/
+
+### Path Finding: Graph
+- https://www.geeksforgeeks.org/find-paths-given-source-destination/
+- https://www.youtube.com/watch?v=SZ3zpzQk2jg&ab_channel=KnowledgeCenter
+- https://leetcode.com/problems/all-paths-from-source-to-target/
+
+### Shortest Path
+- https://www.geeksforgeeks.org/shortest-path-unweighted-graph/
+- https://www.coursera.org/lecture/algorithms-graphs-data-structures/bfs-and-shortest-paths-ZAaJA
+- https://leetcode.com/problems/rotting-oranges/
