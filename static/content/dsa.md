@@ -406,3 +406,192 @@ https://www.youtube.com/watch?v=R9PTBwOzceo&ab_channel=NesoAcademy
 - https://www.geeksforgeeks.org/reverse-a-doubly-linked-list/
 - https://www.geeksforgeeks.org/remove-duplicates-from-a-sorted-linked-list/
 - https://www.geeksforgeeks.org/intersection-of-two-sorted-linked-lists/
+  
+## Stacks
+
+### Introduction to Stack
+- https://www.youtube.com/watch?v=F1F2imiOJfk&ab_channel=mycodeschool
+- https://www.geeksforgeeks.org/stack-class-in-java/
+- https://www.geeksforgeeks.org/stack-in-cpp-stl/
+
+### Understanding function call stack
+- https://www.youtube.com/watch?v=x9yuHFyuWZg&ab_channel=GateSmashers
+
+### Array Implementation of Stack
+- https://www.youtube.com/watch?v=sFVxsglODoo&ab_channel=mycodeschool
+- https://www.geeksforgeeks.org/implement-two-stacks-in-an-array/
+- https://www.geeksforgeeks.org/efficiently-implement-k-stacks-single-array/
+
+### Min Stack & Questions
+- https://www.geeksforgeeks.org/design-a-stack-that-supports-getmin-in-o1-time-and-o1-extra-space/
+- https://www.hackerrank.com/challenges/maximum-element/problem
+
+### BODMAS 
+- https://thirdspacelearning.com/blog/what-is-bodmas/
+
+### Infix / Prefix / Postfix
+- https://www.baeldung.com/cs/infix-prefix-postfix#:~:text=The%20infix%20notation%20uses%20parentheses,are%20appropriate%20for%20particular%20applications.
+- https://www.youtube.com/watch?v=6T3jMNUCRNU&ab_channel=ApnaCollege
+- https://www.youtube.com/watch?v=MuF5p8-oWc8&list=PLfqMhTWNBTe0b2nM6JHVCnAkhQRGiZMSJ&index=74&ab_channel=ApnaCollege
+- https://www.youtube.com/watch?v=5B6jw4wOJR0&list=PLfqMhTWNBTe0b2nM6JHVCnAkhQRGiZMSJ&index=75&ab_channel=ApnaCollege
+- https://www.youtube.com/watch?v=mg9yi6YuAVk&list=PLfqMhTWNBTe0b2nM6JHVCnAkhQRGiZMSJ&index=76&ab_channel=ApnaCollege
+- https://www.youtube.com/watch?v=snDDBjT8jYA&list=PLfqMhTWNBTe0b2nM6JHVCnAkhQRGiZMSJ&index=77&ab_channel=ApnaCollege
+
+### Practice 1: Stacks 
+- https://leetcode.com/problems/valid-parentheses/
+- https://www.hackerrank.com/challenges/equal-stacks/problem
+- https://practice.geeksforgeeks.org/problems/the-celebrity-problem/1
+- https://practice.geeksforgeeks.org/problems/next-larger-element-1587115620/1
+- https://leetcode.com/problems/basic-calculator/
+- https://leetcode.com/problems/number-of-atoms/
+- https://practice.geeksforgeeks.org/problems/stock-span-problem-1587115621/1
+- https://www.hackerrank.com/challenges/largest-rectangle/problem
+- https://leetcode.com/problems/maximal-rectangle/
+
+## Queues
+
+### Introduction to Queues
+- https://www.coursera.org/lecture/data-structures/queues-EShpq
+
+### Implementing Queues
+#### Arrays
+- https://www.geeksforgeeks.org/introduction-and-array-implementation-of-queue/
+#### Linked List
+- https://www.geeksforgeeks.org/queue-linked-list-implementation/
+#### Stacks
+- https://www.geeksforgeeks.org/queue-using-stacks/
+- https://www.hackerrank.com/challenges/queue-using-two-stacks/problem
+
+### Circular Queue & Deque
+- https://www.programiz.com/dsa/circular-queue
+- https://www.programiz.com/dsa/deque
+
+### Practice 1: Queues
+- https://leetcode.com/problems/design-circular-deque/
+- https://leetcode.com/problems/design-circular-queue/
+- https://afteracademy.com/blog/sliding-window-maximum/
+- https://leetcode.com/problems/sliding-window-maximum/
+- https://leetcode.com/problems/jump-game-vi/
+
+## Trees
+
+### Introduction
+- https://www.youtube.com/watch?v=qH6yxkw0u78&ab_channel=mycodeschool
+
+### Binary Tree
+- https://www.youtube.com/watch?v=H5JubkIy_p8&ab_channel=mycodeschool
+https://www.geeksforgeeks.org/introduction-to-binary-tree-data-structure-and-algorithm-tutorials/
+https://www.geeksforgeeks.org/binary-tree-array-implementation/#:~:text=Given%20an%20array%20that%20represents,is%20no%20parent%20for%20root.
+
+### Complete and Full Binary Tree
+- https://www.geeksforgeeks.org/difference-between-full-and-complete-binary-tree/
+- https://web.cecs.pdx.edu/~sheard/course/Cs163/Doc/FullvsComplete.html
+
+### Binary Tree Traversal
+- https://www.youtube.com/watch?v=gm8DUJJhmY4&ab_channel=mycodeschool
+- https://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/
+#### Inorder
+- https://www.youtube.com/watch?v=5dySuyZf9Qg&ab_channel=MichaelSambol
+- https://www.geeksforgeeks.org/inorder-tree-traversal-without-recursion/
+- https://leetcode.com/problems/binary-tree-inorder-traversal/
+#### Pre-order
+- https://www.youtube.com/watch?v=1WxLM2hwL-U&ab_channel=MichaelSambol
+- https://www.geeksforgeeks.org/iterative-preorder-traversal/
+- https://leetcode.com/problems/binary-tree-preorder-traversal/
+#### Post-order
+- https://www.youtube.com/watch?v=4zVdfkpcT6U&ab_channel=MichaelSambol
+- https://www.geeksforgeeks.org/iterative-postorder-traversal/
+- https://leetcode.com/problems/binary-tree-postorder-traversal/
+#### Level Order
+- https://www.youtube.com/watch?v=86g8jAQug04&ab_channel=mycodeschool
+- https://www.geeksforgeeks.org/level-order-tree-traversal/
+- https://leetcode.com/problems/binary-tree-level-order-traversal/
+#### Practice Tree Traversal
+- https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/
+- https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/
+- https://leetcode.com/problems/average-of-levels-in-binary-tree/
+#### Get tree from Inorder + Preorder Traversal
+- https://www.geeksforgeeks.org/construct-tree-from-given-inorder-and-preorder-traversal/
+- https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
+#### Get tree from Postorder + Inorder Traversal
+- https://www.geeksforgeeks.org/construct-a-binary-tree-from-postorder-and-inorder/
+- https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/
+#### Get tree from  Preorder + PostOrder Traversal
+- https://www.geeksforgeeks.org/full-and-complete-binary-tree-from-given-preorder-and-postorder-traversals/
+- https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/
+#### Further Reading On Traversal
+- https://www.geeksforgeeks.org/construct-a-binary-tree-from-parent-array-representation/
+- https://www.geeksforgeeks.org/create-a-tree-in-level-order/
+
+### Height and Diameter Of Binary Tree
+- https://www.geeksforgeeks.org/find-the-maximum-depth-or-height-of-a-tree/
+- https://leetcode.com/problems/maximum-depth-of-binary-tree/
+- https://www.geeksforgeeks.org/diameter-of-a-binary-tree/
+- https://leetcode.com/problems/diameter-of-binary-tree/
+
+### General Practice Trees
+- https://leetcode.com/problems/same-tree/
+- https://leetcode.com/problems/symmetric-tree/
+- https://leetcode.com/problems/merge-two-binary-trees/
+- https://leetcode.com/problems/leaf-similar-trees/
+- https://leetcode.com/problems/balanced-binary-tree/
+
+### BST Basics
+- https://www.youtube.com/watch?v=pYT9F8_LFTM&ab_channel=mycodeschool
+#### Searching
+- https://www.geeksforgeeks.org/binary-search-tree-set-1-search-and-insertion/
+- https://leetcode.com/problems/search-in-a-binary-search-tree/
+#### Insert
+- https://leetcode.com/problems/insert-into-a-binary-search-tree/
+#### Delete
+- https://www.geeksforgeeks.org/deletion-in-binary-search-tree/
+
+### Practice BST Basic
+- https://leetcode.com/problems/validate-binary-search-tree/
+- https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/
+- https://practice.geeksforgeeks.org/problems/inorder-successor-in-bst/1
+- https://leetcode.com/problems/trim-a-binary-search-tree/
+- https://leetcode.com/problems/two-sum-iv-input-is-a-bst/
+- https://leetcode.com/problems/range-sum-of-bst/
+- https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/
+- https://leetcode.com/problems/binary-search-tree-iterator/
+
+### Trees: LCA
+- https://www.youtube.com/watch?v=13m9ZCB8gjw&ab_channel=TusharRoy-CodingMadeSimple
+- https://www.geeksforgeeks.org/lowest-common-ancestor-binary-tree-set-1/
+- https://www.geeksforgeeks.org/lowest-common-ancestor-in-a-binary-tree-using-parent-pointer/
+- https://www.hackerrank.com/challenges/binary-search-tree-lowest-common-ancestor/problem
+- https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/
+
+### Practice 2: Trees
+- https://leetcode.com/problems/path-sum/
+- https://leetcode.com/problems/path-sum-ii/
+- https://leetcode.com/problems/path-sum-iii/
+- https://leetcode.com/problems/sum-root-to-leaf-numbers/
+- https://leetcode.com/problems/delete-leaves-with-a-given-value/
+
+### Heap: Min and Max
+- https://www.programiz.com/dsa/heap-data-structure
+#### Understanding Heap In-depth
+- https://www.youtube.com/watch?v=NKJnHewiGdc&ab_channel=CodeHelp-byBabbar
+- https://www.geeksforgeeks.org/max-heap-in-java/
+#### Building a Heap
+- https://www.youtube.com/watch?v=ywx-Onrdx4U&ab_channel=AnujBhaiya
+- https://www.geeksforgeeks.org/building-heap-from-array/
+#### Heap Sort
+- https://www.youtube.com/watch?v=HqPJF2L5h9U&ab_channel=AbdulBari
+
+### Practice 3: Heap
+- https://www.geeksforgeeks.org/check-if-a-given-binary-tree-is-heap/
+- https://www.geeksforgeeks.org/how-to-check-if-a-given-array-represents-a-binary-heap/
+- https://leetcode.com/problems/k-closest-points-to-origin/
+- https://leetcode.com/problems/find-k-pairs-with-smallest-sums/
+
+### Priority Queue : Details + Implementation
+- https://www.geeksforgeeks.org/priority-queue-set-1-introduction/
+- https://www.geeksforgeeks.org/priority-queue-in-cpp-stl/
+- https://www.geeksforgeeks.org/priority-queue-class-in-java/
+
+### Practice 4: Heap Extra
+- https://leetcode.com/problems/kth-largest-element-in-an-array/
+- https://www.interviewbit.com/problems/meeting-rooms/
