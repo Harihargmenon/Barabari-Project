@@ -55,7 +55,7 @@
 
 - https://www.youtube.com/watch?v=55l-aZ7_F24&t=1s&ab_channel=NesoAcademy
 
-#### Understanding Vectors
+### Understanding Vectors
 - https://www.youtube.com/watch?v=Beh-lJwQJcM&ab_channel=CodingNinjas
 - https://www.geeksforgeeks.org/vector-in-cpp-stl/
 
@@ -76,3 +76,11 @@
 - https://www.hackerrank.com/challenges/divisible-sum-pairs/problem
 #### Sales By March Problem
 - https://www.hackerrank.com/challenges/sock-merchant/problem
+
+### Subarrays / Subtrings / Subsequence
+- https://www.geeksforgeeks.org/subarraysubstring-vs-subsequence-and-programs-to-generate-them/
+
+### Maximum Subarray
+- https://leetcode.com/problems/maximum-subarray/
+- https://www.hackerrank.com/challenges/breaking-best-and-worst-records/problem
+- https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/
