@@ -27,7 +27,7 @@
     };
 </script>
 
-<nav class="p-stx z-10 mx-a w-100 p-rel">
+<nav class="p-stx mx-a w-100 p-rel" style="z-index: 10;">
     <div class="nav d-b wait">
         <input type="checkbox" id="nav-check" bind:checked />
         <div class="nav-header d-i">

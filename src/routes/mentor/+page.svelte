@@ -6,7 +6,7 @@
 </script>
 
 <svelte:head>
-    <!-- <Meta title="Become a Mentor" /> -->
+    <Meta title="Become a Mentor" />
 </svelte:head>
 
 <Layout title="Become a Mentor!">
@@ -25,7 +25,7 @@
     </div>
 
     <main slot="max">
-        <!-- <div
+        <div
             class="hero f-col p-rel j-ct p-rel h-100"
             style="overflow: hidden;"
         >
@@ -39,7 +39,8 @@
                 href="https://docs.google.com/forms/d/1utKmc4y1SJWNH0rzQSlTBcItT6IBiHkeb6Ivz5u3mKo/"
                 target="_blank"
                 rel="noreferrer"
-                class="blur-16 bg-fffa fw4 CTA tc m20 p20 p-rel f j-ar"
+                class="blur-16 fw4 CTA tc m20 p20 p-rel f j-ar"
+                style="background:#fff4;"
             >
                 <div style="align-self:center;">Apply Here!</div>
                 <svg viewBox="0 0 32 32" height="48">
@@ -50,14 +51,15 @@
                 href="https://docs.google.com/document/d/1SGicA4CjgESXWGYP1o6YQkI4Z0aOvNrxTyLvg_abKL8/"
                 target="_blank"
                 rel="noreferrer"
-                class="blur-16 bg-fffa fw4 CTA tc m20 p20 p-rel f j-ar"
+                class="blur-16 fw4 CTA tc m20 p20 p-rel f j-ar"
+                style="background:#fff4;"
             >
                 <div style="align-self:center;">Read More!</div>
                 <svg viewBox="0 0 32 32" height="48">
                     <path d="M11 29 24 16 11 3" />
                 </svg>
             </a>
-        </div> -->
+        </div>
         <div class="p10">
             <Testimonials />
         </div>

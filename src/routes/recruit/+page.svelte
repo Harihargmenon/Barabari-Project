@@ -75,16 +75,16 @@
                 style="top:0;left:0;"
             />
             <div
-                class="clearfix w-100 h-100 z-1 f-col tc j-ct bg-fff4"
-                style="top:0;left:0;"
+                class="clearfix w-100 h-100 f-col tc j-ct"
+                style="top:0;left:0;background:#fff4;z-index:1"
             >
                 <a
                     href="https://docs.google.com/document/d/1yREF25R3NRavN3GQ7vBQMWeJ3yjUdn44vU-hmyH6U8o/
         "
                     target="_blank"
                     rel="noreferrer"
-                    class="blur-8 bg-fffa w-66 fw4 tc mx-a p20 p-rel f j-ar"
-                    style="font-size: 1.5em;"
+                    class="blur-8 w-66 fw4 tc mx-a p20 p-rel f j-ar"
+                    style="font-size: 1.5em; background:#fff4;"
                 >
                     <div style="align-self:center;">Get In Touch!</div>
                     <svg viewBox="0 0 32 32" height="48">

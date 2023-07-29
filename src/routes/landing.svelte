@@ -1,7 +1,7 @@
 <script>
 </script>
 
-<div class="w-100 h-100 fade tc p-rel col-222 bg-222" style="margin-top:20px;">
+<div class="cont w-100 h-100 fade tc p-rel">
     <div id="hi" class="fade-right">
         <span>Hi! <span class="d-ib" id="wave">👋</span></span>,
         <span class="fade-right o-0" style="--delay: 1s;">we are</span>
@@ -10,6 +10,11 @@
 </div>
 
 <style lang="scss">
+    .cont {
+        color: #fff;
+        background: #222;
+        margin-top: 20px;
+    }
     @keyframes wave {
         0% {
             transform: rotate(0deg);

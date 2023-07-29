@@ -37,7 +37,8 @@
         "
             target="_blank"
             rel="noreferrer"
-            class="blur-16 bg-fffa fw4 CTA tc m20 p20 p-rel f j-ar"
+            class="blur-16 fw4 CTA tc m20 p20 p-rel f j-ar"
+            style="background:#fff4;"
         >
             <div style="align-self:center;">Apply Here!</div>
             <svg viewBox="0 0 32 32" height="48">
@@ -49,7 +50,8 @@
         "
             target="_blank"
             rel="noreferrer"
-            class="blur-16 bg-fffa fw4 CTA tc m20 p20 p-rel f j-ar"
+            class="blur-16 fw4 CTA tc m20 p20 p-rel f j-ar"
+            style="background:#fff4;"
         >
             <div style="align-self:center;">Read More!</div>
             <svg viewBox="0 0 32 32" height="48">

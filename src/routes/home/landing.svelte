@@ -11,8 +11,8 @@
     />
     <div id="bio" class="w-100 tc p-abs fade-down">
         <div
-            class="tl rx2 bg-0008"
-            style="max-width:min(600px, 80%);border-left: 3px solid var(--yellow); padding-left: 20px;"
+            class="tl rx2"
+            style="max-width:min(600px, 80%);border-left: 3px solid var(--yellow); padding-left: 20px;background: #0008;"
         >
             Addressing private sector inequality by personalized tech mentorship
             for candidates from the underprivileged sections(by caste, income,

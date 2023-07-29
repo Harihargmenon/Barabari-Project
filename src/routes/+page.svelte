@@ -49,7 +49,7 @@
 
 <Landing />
 
-<div class="p20 bg-eee">
+<div class="p20" style="background: #eee;">
     <div class="f mx-a j-ar fwx" style="max-width: 1000px;">
         {#each stats as stat}
             <div class="f-col tc stat m10">
@@ -59,7 +59,7 @@
         {/each}
     </div>
 </div>
-<article class="w-100 tc p-rel f-col j-ar bg-222 col-fff">
+<article class="w-100 tc p-rel f-col j-ar">
     <div class="p10 m20">
         <svg class="ccd-icon tc p10" viewBox="0 0 512 512">
             <path
@@ -98,7 +98,7 @@
     </div>
 </article>
 
-<div class="p20 tc bg-eee">
+<div class="p20 tc" style="background:#eee;">
     <h2>Partners</h2>
     <div class="f mx-a j-ar fwx" style="max-width: 1000px;">
         {#each partners as partner}
@@ -114,6 +114,8 @@
 <style lang="scss">
     article {
         height: 80vh;
+        color: #fff;
+        background: #222;
     }
     @media screen and (max-width: 600px) {
         article {

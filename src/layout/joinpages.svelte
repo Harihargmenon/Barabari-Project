@@ -4,7 +4,7 @@
 </script>
 
 <div class="w-100">
-    <div class="w-100 tc p-rel bg-222">
+    <div class="w-100 tc p-rel" style="background: #222;">
         <p class="w-100 mx-a">
             <slot name="desc" />
         </p>

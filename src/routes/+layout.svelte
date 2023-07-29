@@ -66,11 +66,11 @@
     </style>
 
     {#if $page.url.pathname === "/"}
-        <div class="p-abs hero z-1 fade-right bg-222">
+        <div class="p-abs hero fade-right" style="z-index: 1;">
             <Landing />
         </div>
     {/if}
-    <div id="content" class="z-1">
+    <div id="content" style="z-index: 1;">
         <slot />
     </div>
 
@@ -132,6 +132,7 @@
         height: 100vh;
         width: 100vw;
         overflow: hidden;
+        background: #222;
 
         opacity: 1;
         animation: 0.5s hero ease forwards;

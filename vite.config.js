@@ -1,4 +1,3 @@
-import uno from 'unocss/vite'
 import { defineConfig } from 'vite';
 import { sveltekit } from '@sveltejs/kit/vite';
 import { imagetools } from 'vite-imagetools';
@@ -8,7 +7,6 @@ const config = defineConfig( {
 		target: "es2015"
 	},
 	plugins: [
-		uno(),
 		sveltekit(),
 		imagetools( { force: true } )
 	],
