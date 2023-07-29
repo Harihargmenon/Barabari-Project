@@ -1,5 +1,4 @@
 <script>
-    import "uno.css";
     import { page } from "$app/stores";
 
     import Nav from "../layout/nav.svelte";

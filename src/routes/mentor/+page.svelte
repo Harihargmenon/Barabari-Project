@@ -3,6 +3,15 @@
     import Layout from "../../layout/joinpages.svelte";
     import Background from "../../../static/images/hero/mentor.jpg?w=1080&h=610&fit=cover&webp";
     import Testimonials from "./testimonials.svelte";
+    import { onMount } from "svelte";
+
+    let demo = false;
+    onMount(() => {
+        const url = new URL(window.location.href);
+        if (url.searchParams.get("demo") === "true") {
+            demo = true;
+        }
+    });
 </script>
 
 <svelte:head>
@@ -60,9 +69,11 @@
                 </svg>
             </a>
         </div>
-        <div class="p10">
-            <Testimonials />
-        </div>
+        {#if demo === true}
+            <div class="p10">
+                <Testimonials />
+            </div>
+        {/if}
     </main>
 </Layout>
 
