@@ -13,6 +13,7 @@
 		"build": "vite build",
 		"deploy:force": "npx gh-pages -d build -t true && rm -rf build .svelte*",
 		"deploy": "echo 'CI is Setup! use deploy:force to force deploy'",
+		"postdeploy": "rm -rf build*",
 		"preview": "vite preview"
 	},
 	"devDependencies": {

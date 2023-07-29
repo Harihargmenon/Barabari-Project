@@ -8,6 +8,8 @@
 
     $: stats = [{ name: "Across States", count: 4 }];
 
+    const partners = [["Ohoq Foundation", "/images/partners/hoq.png"]];
+
     const getStats = async () => {
         const sheet =
             "https://docs.google.com/spreadsheets/d/1zWC5x7sAPFKI0ggBy9JErXpHk-F0IMzPI68zPqb70nw/gviz/tq?tqx=out:csv&sheet=Overall%20Data";
@@ -96,12 +98,17 @@
     </div>
 </article>
 
-<!-- <div class="p20 tc bg-eee">
+<div class="p20 tc bg-eee">
     <h2>Partners</h2>
     <div class="f mx-a j-ar fwx" style="max-width: 1000px;">
-
+        {#each partners as partner}
+            <div class="stat tc m10 part">
+                <img src={partner[1]} alt={partner[0]} />
+                <div class="name fw7">{partner[0]}</div>
+            </div>
+        {/each}
     </div>
-</div> -->
+</div>
 
 <!-- <Social /> -->
 <style lang="scss">
@@ -111,6 +118,13 @@
     @media screen and (max-width: 600px) {
         article {
             height: 100vh;
+        }
+    }
+    .part {
+        img {
+            width: 150px;
+            height: 150px;
+            object-fit: contain;
         }
     }
     .stat {
