@@ -12,7 +12,7 @@
     <div id="bio" class="w-100 tc p-abs fade-down">
         <div
             class="tl rx2"
-            style="max-width:min(600px, 80%);border-left: 3px solid var(--yellow); padding-left: 20px;background: #0008;"
+            style="max-width:min(600px, 50%);border-left: 3px solid var(--yellow); padding-left: 20px;background: #0008;"
         >
             Addressing private sector inequality by personalized tech mentorship
             for candidates from the underprivileged sections(by caste, income,
@@ -20,17 +20,14 @@
         </div>
     </div>
     <div class="p-abs f w-100 tc fade-up" style="bottom: 0;left:0;--delay:6s;">
-        <a href="/volunteer" style="background:#222;color:#fff;">
-            Volunteer <br />
-            <span>Help Us Out</span>
+        <a href="/volunteer" class="bg-222">
+            Volunteer <br /> <span>Help Us Out</span>
         </a>
-        <a href="/candidate" style="background:var(--yellow);color:#000;">
-            Candidate <br />
-            <span>Level Up Now!</span>
+        <a href="/candidate" class="bg-fc3">
+            Candidate <br /> <span>Level Up Now!</span>
         </a>
-        <a class="blur-8" href="/mentor" style="background:#222;color:#fff;">
-            Mentor <br />
-            <span>Help a Candidate</span>
+        <a href="/mentor" class="bg-222">
+            Mentor <br /> <span>Help a Candidate</span>
         </a>
     </div>
 </section>

@@ -10,6 +10,11 @@
 	<link rel="stylesheet" href="/css/frames.css">
 
 	<style>
+		/*
+			DONT REMOVE
+			1. These are global styles
+			2. OR soon to be updated to AtomiCSS
+		 */
 		:root {
 			--yellow-hl-rgb: 254, 196, 49;
 			--yellow-hl: #eb2;
@@ -29,19 +34,31 @@
 		}
 
 		.blur-16 {
-			filter: blur(16px);
-			--webkit-filter: blur(16px);
-			--moz-filter: blur(16px);
+			background: #fff8;
+			backdrop-filter: blur(16px);
+			--webkit-backdrop-filter: blur(16px);
+			--moz-backdrop-filter: blur(16px);
 		}
 
 		.blur-8 {
-			filter: blur(8px);
-			--webkit-filter: blur(8px);
-			--moz-filter: blur(8px);
+			background: #fff8;
+			backdrop-filter: blur(8px);
+			--webkit-backdrop-filter: blur(8px);
+			--moz-backdrop-filter: blur(8px);
 		}
 
 		.d-i {
 			display: inline;
+		}
+
+		.bg-222 {
+			background: #222;
+			color: #fff !important;
+		}
+
+		.bg-fc3 {
+			background: var(--yellow);
+			color: #000;
 		}
 	</style>
 

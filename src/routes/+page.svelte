@@ -59,7 +59,7 @@
         {/each}
     </div>
 </div>
-<article class="w-100 tc p-rel f-col j-ar">
+<article class="w-100 tc p-rel f-col j-ar bg-222">
     <div class="p10 m20">
         <svg class="ccd-icon tc p10" viewBox="0 0 512 512">
             <path
@@ -114,8 +114,6 @@
 <style lang="scss">
     article {
         height: 80vh;
-        color: #fff;
-        background: #222;
     }
     @media screen and (max-width: 600px) {
         article {

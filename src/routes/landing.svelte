@@ -1,7 +1,7 @@
 <script>
 </script>
 
-<div class="cont w-100 h-100 fade tc p-rel">
+<div class="cont bg-222 w-100 h-100 fade tc p-rel">
     <div id="hi" class="fade-right">
         <span>Hi! <span class="d-ib" id="wave">👋</span></span>,
         <span class="fade-right o-0" style="--delay: 1s;">we are</span>
@@ -11,8 +11,6 @@
 
 <style lang="scss">
     .cont {
-        color: #fff;
-        background: #222;
         margin-top: 20px;
     }
     @keyframes wave {
