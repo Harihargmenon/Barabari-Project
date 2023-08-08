@@ -1,12 +1,16 @@
 import { defineConfig } from 'vite';
 import { sveltekit } from '@sveltejs/kit/vite';
 import { imagetools } from 'vite-imagetools';
-import { writeFile } from 'fs';
+import { writeFile, readFileSync } from 'fs';
 
+// Auto Update AtomiCSS
+const file = "static/css/atomic.css";
 fetch( "https://manav.ch/atomic.css" )
 	.then( r => r.text() )
 	.then( t => {
-		writeFile( "static/css/atomic.css", t, ( err ) => {
+		const read = readFileSync( file, "utf-8" );
+		if ( read === t ) return 0;
+		writeFile( file, t, ( err ) => {
 			if ( err ) throw err;
 			console.log( "Updated AtomiCSS" );
 		} );

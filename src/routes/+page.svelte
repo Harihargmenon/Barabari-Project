@@ -25,7 +25,7 @@
                     localStats.push({ name: heading, count: Total });
                 });
 
-                stats = [stats, localStats].flat(1);
+                stats = localStats;
             },
             error: function (err) {
                 console.log(err);
