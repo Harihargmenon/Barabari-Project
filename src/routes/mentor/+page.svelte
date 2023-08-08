@@ -2,16 +2,46 @@
     import Meta from "../../components/meta.svelte";
     import Layout from "../../layout/joinpages.svelte";
     import Background from "../../../static/images/hero/mentor.jpg?w=1080&h=610&fit=cover&webp";
-    import Testimonials from "./testimonials.svelte";
+    import Testimonials from "../../components/testimonials.svelte";
     import { onMount } from "svelte";
 
     let demo = false;
     onMount(() => {
         const url = new URL(window.location.href);
-        if (url.searchParams.get("demo") === "true") {
+        if (
+            url.searchParams.get("demo") === "true" ||
+            url.hostname === "localhost"
+        ) {
             demo = true;
         }
     });
+
+    let monials = [
+        {
+            title: "Section 1",
+            content:
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate, quibusdam voluptatum, voluptatibus, quos dolorum",
+            icon: "https://picsum.photos/900/900",
+        },
+        {
+            title: "Section 2",
+            content:
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate, quibusdam voluptatum, voluptatibus, quos dolorum",
+            icon: "https://picsum.photos/900/901",
+        },
+        {
+            title: "Section 3",
+            content:
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate, quibusdam voluptatum, voluptatibus, quos dolorum",
+            icon: "https://picsum.photos/900/902",
+        },
+        {
+            title: "Section 4",
+            content:
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate, quibusdam voluptatum, voluptatibus, quos dolorum",
+            icon: "https://picsum.photos/900/903",
+        },
+    ];
 </script>
 
 <svelte:head>
@@ -68,9 +98,7 @@
             </a>
         </div>
         {#if demo === true}
-            <div class="p10">
-                <Testimonials />
-            </div>
+            <Testimonials data={monials} />
         {/if}
     </main>
 </Layout>
