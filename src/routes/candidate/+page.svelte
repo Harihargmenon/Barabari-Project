@@ -89,12 +89,18 @@
     }
     a {
         left: 10%;
+        max-width: 100%;
         text-decoration: none;
         color: #000;
         transition: 0.2s box-shadow ease-in-out;
         &:hover {
             // light soft white box shadow
             box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.5);
+        }
+    }
+    @media (max-width: 768px) {
+        a {
+            left: 2px;
         }
     }
 </style>

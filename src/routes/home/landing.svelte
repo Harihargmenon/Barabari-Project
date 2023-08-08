@@ -16,7 +16,7 @@
         >
             Addressing private sector inequality by personalized tech mentorship
             for candidates from the underprivileged sections(by caste, income,
-            and gender).
+            and gender)
         </div>
     </div>
     <div class="p-abs f w-100 tc fade-up" style="bottom: 0;left:0;--delay:6s;">
@@ -63,6 +63,7 @@
     @media (max-width: 600px) {
         #bio {
             font-size: 1rem;
+            left: 20px;
         }
         a {
             font-size: 1.25rem;
