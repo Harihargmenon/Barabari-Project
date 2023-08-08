@@ -8,7 +8,10 @@
 
     $: stats = [{ name: "Across States", count: 4 }];
 
-    const partners = [["Ohoq Foundation", "/images/partners/hoq.png"]];
+    const partners = [
+        ["Ohoq Foundation", "/images/partners/hoq.png"],
+        ["Sāक्षartā Foundation", "/images/partners/saksharta.png"],
+    ];
 
     const getStats = async () => {
         const sheet =
@@ -100,7 +103,7 @@
 
 <div class="p20 tc" style="background:#eee;">
     <h2>Partners</h2>
-    <div class="f mx-a j-ar fwx" style="max-width: 1000px;">
+    <div class="f mx-a j-ar fw" style="max-width: 1000px;">
         {#each partners as partner}
             <div class="stat tc m10 part">
                 <img src={partner[1]} alt={partner[0]} />
