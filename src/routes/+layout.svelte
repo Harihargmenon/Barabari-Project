@@ -73,7 +73,7 @@
         <slot />
     </div>
 
-    <footer class="p10 w-100 tc">
+    <footer class="p10 w-100 tc bg-fc3">
         <div class="mx-a" style="max-width: 300px;">
             <div class="fw4" style="font-size:2rem;">The Barabari Project</div>
             <div class="p10" style="font-size:1.1em">
@@ -99,7 +99,6 @@
 <style>
     footer {
         width: calc(100% - 20px);
-        background: var(--yellow);
         font-size: 0.8em;
     }
     #content {

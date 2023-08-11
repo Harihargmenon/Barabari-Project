@@ -7,6 +7,10 @@
     onMount(() => (location = window.location.pathname));
 
     const navItems = [
+        // {
+        //     name: "About Us",
+        //     href: "/about",
+        // },
         {
             name: "Get Mentorship",
             href: "/candidate",

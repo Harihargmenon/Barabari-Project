@@ -3,10 +3,17 @@
     import Meta from "../components/meta.svelte";
     import Landing from "./home/landing.svelte";
     import Papa from "papaparse";
+    const BBS = "https://bbs.barabariproject.org/i1";
 
     let innerWidth;
 
-    $: stats = [{ name: "Across States", count: 4 }];
+    $: stats = [
+        {
+            name: "Across States",
+            count: 4,
+            icon: BBS + "/fas:graduation-cap",
+        },
+    ];
 
     const partners = [
         ["Ohoq Foundation", "/images/partners/hoq.png"],
@@ -23,11 +30,15 @@
             header: true,
             complete: function (results) {
                 let localStats = [];
-                results.data.forEach((e) => {
-                    const { heading, Total } = e;
-                    localStats.push({ name: heading, count: Total });
-                });
 
+                for (let i = 0; i < results.data.length; i++) {
+                    const e = results.data[i];
+                    localStats.push({
+                        name: e.heading,
+                        count: e.Total,
+                        icon: e.icon,
+                    });
+                }
                 stats = localStats;
             },
             error: function (err) {

@@ -7,7 +7,7 @@
         src={Background}
         alt=""
         class="p-abs flow-x-h"
-        style="height: 100vh;width:100vw;object-fit:cover;"
+        style="height: 100vh;width:100vw;"
     />
     <div id="bio" class="w-100 tc p-abs fade-down">
         <div
