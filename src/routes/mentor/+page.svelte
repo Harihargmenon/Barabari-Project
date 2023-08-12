@@ -1,6 +1,6 @@
 <script>
     import Meta from "../../components/meta.svelte";
-    import Layout from "../../layout/joinpages.svelte";
+    import Layout from "../../layout/primary.svelte";
     import Background from "../../../static/images/hero/mentor.jpg?w=1080&h=610&fit=cover&webp";
     import Testimonials from "../../components/testimonials.svelte";
     import { onMount } from "svelte";

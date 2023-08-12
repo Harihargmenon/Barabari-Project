@@ -1,7 +1,7 @@
 <script>
     import { page } from "$app/stores";
 
-    import Nav from "../layout/nav.svelte";
+    import Nav from "./home/nav.svelte";
     import Landing from "./landing.svelte";
 
     const social = Object.freeze([
