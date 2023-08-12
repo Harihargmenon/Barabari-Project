@@ -7,13 +7,16 @@ settings:
 dependencies:
   bbs:
     specifier: barabari-project/microback
-    version: github.com/barabari-project/microback/d32435982fa04e5b1370826dad0528f685906344
+    version: github.com/barabari-project/microback/1a7c595b4b2e145b9e391a6a1f9b4ac703b30e03
   i18next:
     specifier: 22.4.15
     version: 22.4.15
   marked:
     specifier: 4.3.0
     version: 4.3.0
+  mdsvex:
+    specifier: ^0.11.0
+    version: 0.11.0(svelte@3.58.0)
   papaparse:
     specifier: ^5.4.1
     version: 5.4.1
@@ -374,6 +377,10 @@ packages:
 
   /@types/pug@2.0.6:
     resolution: {integrity: sha512-SnHmG9wN1UVmagJOnyo/qkk0Z7gejYxOYYmaAwr5u2yFYfsupN3sg10kyzN8Hep/2zbHxCnsumxOoRIRMBwKCg==}
+    dev: false
+
+  /@types/unist@2.0.7:
+    resolution: {integrity: sha512-cputDpIbFgLUaGQn6Vqg3/YsJwxUwHLO13v3i5ouxT4lat0khip9AEWxtERujXV9wxIB1EyF97BSJFt6vpdI8g==}
     dev: false
 
   /anymatch@3.1.3:
@@ -814,6 +821,18 @@ packages:
     hasBin: true
     dev: false
 
+  /mdsvex@0.11.0(svelte@3.58.0):
+    resolution: {integrity: sha512-gJF1s0N2nCmdxcKn8HDn0LKrN8poStqAicp6bBcsKFd/zkUBGLP5e7vnxu+g0pjBbDFOscUyI1mtHz+YK2TCDw==}
+    peerDependencies:
+      svelte: '>=3 <5'
+    dependencies:
+      '@types/unist': 2.0.7
+      prism-svelte: 0.4.7
+      prismjs: 1.29.0
+      svelte: 3.58.0
+      vfile-message: 2.0.4
+    dev: false
+
   /memoizee@0.4.15:
     resolution: {integrity: sha512-UBWmJpLZd5STPm7PMUlOw/TSy972M+z8gcyQ5veOnSDRREz/0bmpyTfKt3/51DhEBqCZQn1udM/5flcSPYhkdQ==}
     dependencies:
@@ -955,6 +974,15 @@ packages:
       simple-get: 4.0.1
       tar-fs: 2.1.1
       tunnel-agent: 0.6.0
+    dev: false
+
+  /prism-svelte@0.4.7:
+    resolution: {integrity: sha512-yABh19CYbM24V7aS7TuPYRNMqthxwbvx6FF/Rw920YbyBWO3tnyPIqRMgHuSVsLmuHkkBS1Akyof463FVdkeDQ==}
+    dev: false
+
+  /prismjs@1.29.0:
+    resolution: {integrity: sha512-Kx/1w86q/epKcmte75LNrEoT+lX8pBpavuAbvJWRXar7Hz8jrtF+e3vY751p0R8H9HdArwaCTNDDzHg/ScJK1Q==}
+    engines: {node: '>=6'}
     dev: false
 
   /pump@3.0.0:
@@ -1282,8 +1310,21 @@ packages:
       busboy: 1.6.0
     dev: true
 
+  /unist-util-stringify-position@2.0.3:
+    resolution: {integrity: sha512-3faScn5I+hy9VleOq/qNbAd6pAx7iH5jYBMS9I1HgQVijz/4mv5Bvw5iw1sC/90CODiKo81G/ps8AJrISn687g==}
+    dependencies:
+      '@types/unist': 2.0.7
+    dev: false
+
   /util-deprecate@1.0.2:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
+    dev: false
+
+  /vfile-message@2.0.4:
+    resolution: {integrity: sha512-DjssxRGkMvifUOJre00juHoP9DPWuzjxKuMDrhNbk2TdaYYBNMStsNhEOt3idrtI12VQYM/1+iM0KOzXi4pxwQ==}
+    dependencies:
+      '@types/unist': 2.0.7
+      unist-util-stringify-position: 2.0.3
     dev: false
 
   /vite-imagetools@4.0.19:
@@ -1348,10 +1389,10 @@ packages:
     resolution: {integrity: sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==}
     dev: false
 
-  github.com/barabari-project/microback/d32435982fa04e5b1370826dad0528f685906344:
-    resolution: {tarball: https://codeload.github.com/barabari-project/microback/tar.gz/d32435982fa04e5b1370826dad0528f685906344}
+  github.com/barabari-project/microback/1a7c595b4b2e145b9e391a6a1f9b4ac703b30e03:
+    resolution: {tarball: https://codeload.github.com/barabari-project/microback/tar.gz/1a7c595b4b2e145b9e391a6a1f9b4ac703b30e03}
     name: microback
-    version: 0.0.2
+    version: 0.0.3
     dependencies:
       hono: 3.4.1
     dev: false

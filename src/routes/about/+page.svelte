@@ -1,6 +1,6 @@
 <script>
     import Meta from "../../components/meta.svelte";
-    import Layout from "../../layout/primary.svelte";
+    import Layout from "$layout/primary.svelte";
     import Background from "../../../static/images/hero/volunteer.jpg?w=1080&h=610&fit=cover&webp";
 </script>
 

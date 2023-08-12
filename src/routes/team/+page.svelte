@@ -1,5 +1,5 @@
 <script>
-    import Layout from "../../layout/primary.svelte";
+    import Layout from "$layout/primary.svelte";
     import Personal from "./card.svelte";
 
     import Team from "./team.json";
