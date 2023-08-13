@@ -64,16 +64,18 @@
 <Landing />
 
 <div class="p20" style="background: #eee;">
-    <div class="f mx-a j-ar fwx" style="max-width: 1000px;">
+    <div class="f mx-a j-ar fw" style="max-width: 1000px;">
         {#each stats as stat}
-            <div class="f-col tc stat m10">
-                <div class="ctr fw5">{stat.count}</div>
-                <div class="name fw4">{stat.name}</div>
+            <div class="f">
+                <div class="f-col tc stat m10">
+                    <div class="ctr fw7">{stat.count}</div>
+                    <div class="name fw4">{stat.name}</div>
+                </div>
             </div>
         {/each}
     </div>
 </div>
-<article class="w-100 tc p-rel f-col j-ar bg-222">
+<article id="about" class="w-100 tc p-rel f-col j-ar bg-222">
     <div class="p10 m20">
         <svg class="ccd-icon tc p10" viewBox="0 0 512 512">
             <path
@@ -134,18 +136,16 @@
             height: 100vh;
         }
     }
-    .part {
-        img {
-            width: 150px;
-            height: 150px;
-            object-fit: contain;
-        }
+    .part img {
+        width: 150px;
+        height: 150px;
+        object-fit: contain;
     }
     .stat {
         padding: 30px 0;
         width: 250px;
         .ctr {
-            font-size: 3.5rem;
+            font-size: 3.75rem;
         }
         .name {
             text-transform: uppercase;

@@ -1,18 +1,25 @@
 import heading from "./heading.js";
+import listing from "./list.js";
 import { visit } from 'unist-util-visit';
 
 function wrapper () {
   return transform;
 
   function transform ( tree ) {
-    visit( tree, 'heading', visitor );
+    visit( tree, 'heading', head );
+    visit( tree, 'list', list )
   }
 
-  function visitor ( node, _, parent ) {
-    const { type: t, depth: d } = node;
+  function list ( node, _, parent ) {
+    if ( node.children.length > 0 )
+      listing( node, parent );
+  }
+
+
+  function head ( node, _, parent ) {
+    const d = node.depth;
     const l = node.children.length;
-    if ( d === 3 && t === 'heading' && l > 0 ) {
+    if ( d === 3 && l > 0 )
       heading( node, parent );
-    }
   }
 }; export default wrapper;

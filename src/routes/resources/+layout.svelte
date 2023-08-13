@@ -5,8 +5,8 @@
 <style lang="scss">
   :global {
     body {
-      background: #349;
-      color: #fff;
+      background: #f5f5f7;
+      color: #000;
     }
   }
 </style>

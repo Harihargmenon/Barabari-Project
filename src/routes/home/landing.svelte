@@ -1,5 +1,5 @@
 <script>
-    import Background from "../../../static/images/landing.webp?w=1920&h=1080&fit=cover&webp";
+    import Background from "../../../static/images/landing2.jpg?w=1200&h=925&fit=cover&webp";
 </script>
 
 <section id="landing" class="p-rel">
@@ -14,9 +14,9 @@
             class="tl rx2"
             style="max-width:min(600px, 50%);border-left: 3px solid var(--yellow); padding-left: 20px;background: #0008;"
         >
-            Addressing private sector inequality by personalized tech mentorship
-            for candidates from the underprivileged sections(by caste, income,
-            and gender)
+            We are a Non-Profit working to reduce inequality via Tech-Education.
+            We run two programs; 1:1 Tech Mentorship to help candidates get jobs
+            and Tech Empowerment courses for school students
         </div>
     </div>
     <div class="p-abs f w-100 tc fade-up" style="bottom: 0;left:0;--delay:6s;">
