@@ -13,28 +13,3 @@ export const debounce = function ( func, wait, immediate ) {
         if ( callNow ) func.apply( context, args );
     };
 };
-
-
-let intersectionObserver;
-function ensureIntersectionObserver () {
-    if ( intersectionObserver ) return;
-
-    intersectionObserver = new IntersectionObserver(
-        ( entries ) => entries.forEach( entry =>
-            entry.target.dispatchEvent(
-                new CustomEvent( entry.isIntersecting ? 'view' : 'hide' )
-            )
-        )
-    );
-};
-
-export function viewport ( element ) {
-    ensureIntersectionObserver();
-    intersectionObserver.observe( element );
-
-    return { destroy () { intersectionObserver.unobserve( element ); } }
-};
-
-export const viewHandle = ( e ) => {
-    console.log( e );
-}

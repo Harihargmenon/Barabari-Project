@@ -1,6 +1,5 @@
 import { posts } from "$content/index";
 
-export async function load ( { } ) {
-  console.log( "load", posts );
+export async function load () {
   return { posts };
 }

@@ -4,7 +4,6 @@
 
     import Team from "./team.json";
     import Mentors from "./mentors.json";
-    import { viewport, viewHandle } from "$lib";
 </script>
 
 <Layout title="The Team">
@@ -21,12 +20,7 @@
                 {/each}
             </article>
         </section>
-        <section
-            class="w-100"
-            use:viewport
-            on:hide={viewHandle}
-            on:view={viewHandle}
-        >
+        <section class="w-100">
             <h2>Barabari Mentors</h2>
             <article class="w-100 mx-a f fwx">
                 {#each Mentors as person, index}

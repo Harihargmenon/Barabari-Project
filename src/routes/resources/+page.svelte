@@ -12,18 +12,16 @@
 <Layout title="Find out more!">
   <section class="mx-a w-100">
     {#each data.posts as p}
-      <a class="f" href="/t/{p.slug}">
-        <div>
-          <h3>{p.title}</h3>
-          <span class="dt">
-            {new Date(p.date).toLocaleDateString("en-GB", {
-              year: "numeric",
-              month: "long",
-              day: "2-digit",
-            })}
-          </span>
-          <p style="margin-bottom: 0;">{p.desc}</p>
-        </div>
+      <a class="d-b" href="/t/{p.slug}">
+        <h3>{p.title}</h3>
+        <span class="dt">
+          {new Date(p.date).toLocaleDateString("en-GB", {
+            year: "numeric",
+            month: "long",
+            day: "2-digit",
+          })}
+        </span>
+        <p style="margin-bottom: 0;">{p.desc}</p>
       </a>
     {/each}
   </section>

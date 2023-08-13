@@ -1,4 +1,4 @@
-import { posts } from '$posts';
+import { posts } from '$content';
 import { error } from '@sveltejs/kit';
 import type { PageServerLoad } from './$types';
 
@@ -11,7 +11,6 @@ export const load: PageServerLoad = async ({ params }) => {
   if (!post) {
     throw error(404, 'Post not found');
   }
-
   return {
     post,
   };

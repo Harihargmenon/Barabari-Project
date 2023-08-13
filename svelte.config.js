@@ -2,6 +2,10 @@ import adapter from '@sveltejs/adapter-static';
 import preprocess from 'svelte-preprocess';
 import { mdsvex } from 'mdsvex';
 
+// Plugins
+import accordion from './plugins/accordion/index.js';
+
+
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	extensions: [ '.svelte', '.mdx' ],
@@ -10,6 +14,10 @@ const config = {
 		mdsvex( {
 			extensions: [ '.mdx' ],
 			smartypants: {},
+			remarkPlugins: [
+				accordion
+			],
+			rehypePlugins: []
 		} )
 	],
 	kit: {

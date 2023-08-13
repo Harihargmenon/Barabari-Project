@@ -24,6 +24,11 @@ const config = defineConfig( {
 		sveltekit(),
 		imagetools( { force: true } )
 	],
-	server: { port: 3000 }
+	server: {
+		port: 3000,
+		fs: {
+			allow: [ "." ]
+		}
+	}
 } );
 export default config;
