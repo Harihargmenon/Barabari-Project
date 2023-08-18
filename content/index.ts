@@ -1,6 +1,7 @@
 interface Post {
   title: string;
   slug: string;
+  desc: string;
   draft: Boolean;
 }
 
@@ -18,6 +19,15 @@ for (let i = 0; i < md.length; i++) {
     md[i] = null;
     continue;
   };
+
+  if (meta.desc) {
+    if (typeof meta.desc === 'string')
+      meta.desc = meta.desc.slice(0, 280);
+    else
+      meta.desc = meta.desc.join(' ').slice(0, 280);
+  }
+
+  console.log(meta);
 
   md[i] = ({
     ...meta,

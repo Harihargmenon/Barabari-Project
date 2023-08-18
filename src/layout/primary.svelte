@@ -4,12 +4,17 @@
 </script>
 
 <div class="w-100">
-    <header class="p5 tc p-rel bg-222 desc">
-        <div class="w-100 desc">
-            <slot name="desc" />
-        </div>
-    </header>
-    <h1 class="m0 p20 bg-fc3">{title}</h1>
+    {#if $$slots.desc}
+        <header class="p5 tc p-rel bg-222 desc">
+            <div class="w-100 desc">
+                <slot name="desc" />
+            </div>
+        </header>
+    {/if}
+    <h1 class="m0 p20 bg-fc3">
+        {#if !$$slots.desc}<br />{/if}
+        {title}
+    </h1>
     <div class="limit mx-a">
         <slot name="body" />
     </div>

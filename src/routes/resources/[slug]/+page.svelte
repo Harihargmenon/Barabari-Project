@@ -8,7 +8,7 @@
     <p><br /></p>
     <header class="d-b" style="margin: 10px 0;">
       <h1 class="m0">{data.post.title}</h1>
-      <div class="g" id="time" />
+      <p>{data.post.desc}</p>
     </header>
     <hr />
 
@@ -23,9 +23,6 @@
 </div>
 
 <style>
-  .g {
-    color: #888;
-  }
   .blur-fff8 {
     overflow: hidden;
     word-wrap: break-word;
